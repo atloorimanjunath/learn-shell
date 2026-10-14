@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "all args passed to the script: $@"
+echo "all args passed to the script as word: $*"
 echo "num of args passed to the script: $#"
 echo "first varible passed: $1"
 echo "script name: $0"
