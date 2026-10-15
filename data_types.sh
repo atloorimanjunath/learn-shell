@@ -15,3 +15,9 @@ echo "$(($num1 % $num2))"
 declare -i COUNT=5
 total=COUNT+1
 echo "Total is: $total"
+
+
+FRUITS=("Apple","Banana","Papaya") #This is a array
+
+echo "$FRUITS"
+
