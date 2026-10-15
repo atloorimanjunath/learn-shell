@@ -13,8 +13,8 @@ echo "$(($num1 % $num2))"
 
 #particular declare the integer "Using declare variable"
 declare -i COUNT=5
-total=COUNT+1
-echo "Total is: ${total}"
+COUNT=COUNT+1
+echo "Total is: ${COUNT}"
 
 
 FRUITS=("Apple","Banana","Papaya") #This is a array
