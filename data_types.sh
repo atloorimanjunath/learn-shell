@@ -19,5 +19,5 @@ echo "Total is: $total"
 
 FRUITS=("Apple","Banana","Papaya") #This is a array
 
-echo "$FRUITS"
+echo "$FRUITS[@]"
 
