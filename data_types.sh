@@ -17,9 +17,9 @@ COUNT=COUNT+1
 echo "Total is: ${COUNT}"
 
 
-FRUITS=("Apple","Banana","Papaya") #This is a array
+FRUITS=("Apple" "Banana" "Papaya") #This is a array
 
-echo "${FRUITS[@]}"
+echo "All fruits: ${FRUITS[@]}"
 echo "Index of fruits: ${FRUITS[1]}"
 
 
