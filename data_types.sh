@@ -20,7 +20,7 @@ echo "Total is: ${COUNT}"
 FRUITS=("Apple","Banana","Papaya") #This is a array
 
 echo "${FRUITS[@]}"
-echo "Index of fruits: ${FRUITS[0]}"
+echo "Index of fruits: ${FRUITS[1]}"
 
 
 name=Manjunath
