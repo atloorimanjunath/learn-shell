@@ -29,3 +29,6 @@ elif [ $marks -lt 85]; then
 else
     echo "Distintion"
 
+fi
+
+echo "Above the student result"
