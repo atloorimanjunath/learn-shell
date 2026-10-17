@@ -5,7 +5,7 @@ echo "Enter the value"
 
 read "value"
 
-if [ $value %2 = 0 ]; then
+if [ $(value % 2 == 0) ]; then
     echo "The number is ${value} = even"
 else
     echo "The number is ${value} = odd"
