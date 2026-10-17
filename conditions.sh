@@ -7,7 +7,7 @@ read "value"
 
 if [ $value%2 = 0 ]; then
     echo "The number is ${value} = even"
-elif [ $value%2 != 0 ]; then
+else
     echo "The number is ${value} = odd"
 fi 
 
