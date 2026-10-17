@@ -14,3 +14,18 @@ fi
 echo "The result is above"
 
 
+#this is another conditions 
+echo "Enter the marks"
+read "marks"
+
+if [ $marks -lt 35]; then
+    echo "The student marks is $marks: Fail"
+elif [ $marks -lt 50]; then
+    echo "The student marks is $marks:Third Class"
+elif [ $marks -lt 70]; then
+    echo "The student marks is $marks:Second Class"
+elif [ $marks -lt 85]; then
+    echo "The student marks is $marks:First Class"
+else
+    echo "Distintion"
+
