@@ -20,3 +20,7 @@ validation() {
 
 dnf install nginx -y
 validation $? "Nginx Installation"
+
+dnf install mysql -k
+validation $? "mysql Installation"
+
