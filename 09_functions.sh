@@ -1,7 +1,7 @@
 #!/bin/bash
 
 validation() {
-    if [ ${$1} -ne 0]; then 
+    if [ $1 -ne 0]; then 
         echo "${$2} Failed"
         exit 1
     else
@@ -11,4 +11,4 @@ validation() {
 }
 
 dnf install nginx -y
-validation "$?,"Nginx Installation"
+validation $? "Nginx Installation"
