@@ -25,12 +25,5 @@ else
 
 fi
 
-dnf install ninxxx -y
-if [ $? -ne 0 ]; then
-   echo "nginx Installation is worng please check"
-   exit 1
-else
-   echo "nginx installad succesufully"
-   
-fi
-echo "Proceding...."
+
+echo "Proceeded.."
