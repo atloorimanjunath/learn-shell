@@ -8,4 +8,5 @@ fi
 
 dnf install nginx -y
 
+dnf install ninxxx -y
 echo "Proceding...."
