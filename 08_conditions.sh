@@ -6,6 +6,6 @@ if [$user -ne 0 ]; then
    exit 1
 fi
 
-dnf sudo install nginx
+dnf install nginx -y
 
 echo "Proceding...."
